@@ -4,9 +4,6 @@
 # Matching Card Game - Proof of Concept
 This simple application uses HTML, CSS, and JavaScript to allow users to play a matching card game.
 
-<!-- **Link to project:** http://recruiters-love-seeing-live-demos.com/ -->
-
-![alt tag](https://github.com/lpercivalDEV/matching-card-game/blob/master/matchingGame.jpg)
 
 ## How It's Made:
 
