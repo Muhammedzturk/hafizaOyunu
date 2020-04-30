@@ -1,0 +1,150 @@
+
+
+ {
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.oyun {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1690px;
+}
+.score {
+  color: red;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 150%;
+}
+
+.highScore {
+  color: red;
+  display: inline-block;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 150%;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; 
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; 
+}
+
+
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+h1 {
+    font-size: 60px;
+    color: green;
+    margin-left: 200px;
+}
+
+.container{
+    display: grid;
+    margin-left: 200px;
+    margin-top: 200px;
+    grid-gap: 15px;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    border: 1px solid black;
+    height: 450px;
+    width: 1050px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    float left:
+}
+
+.card {
+  float: left;
+  margin: 10px;
+  height: 200px;
+  width: 150px;
+  background: tomato;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 3px solid blue;
+}
+
+.card {
+  font-size: 38px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1281px) {
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
